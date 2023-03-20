@@ -1,0 +1,22 @@
+{
+    "poll1" : {
+        "id" : "poll1",
+        "question" : "Would you like to have a FREE Dots vending machine on the Lágymányos campus?",
+        "options" : ["yes", "no"],
+        "isMultiple" : "False",
+        "createdAt" : "2022-12-04",
+        "deadline" : "2022-12-12",
+        "answers" : {"yes" : 2, "no" : 0},
+        "voted" : ["userid1", "userid2"]
+    },
+    "poll2" : {
+        "id" : "poll2",
+        "question" : "What should the Dots vending machine give?",
+        "options" : ["Classic Túró Rudi", "Caramel Guru", "Milk-slice", "Fitness Rudi"],
+        "isMultiple" : "True",
+        "createdAt" : "2022-12-05",
+        "deadline" : "2024-12-13",
+        "answers" : {"Classic Túró Rudi" : 3, "Caramel Guru" : 3, "Milk-slice" : 3, "Fitness Rudi" : 2},
+        "voted" : ["userid1", "userid2", "userid3"]
+    }
+}
